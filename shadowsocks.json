@@ -1,1 +1,11 @@
-{\n "server":"0.0.0.0",\n "local_address": "127.0.0.1",\n "local_port":,\n "server_port":8989,\n "password":"",\n "timeout":300,\n "method":"",\n "fast_open": false\n }
+{
+  "server":"0.0.0.0",
+  "local_address": "127.0.0.1",
+  "local_port":11080,
+  "server_port":8989,
+  "password":"Fuckqq.c0m",
+  "timeout":300,
+  "method":"aes-256-cfb",
+  "fast_open": false
+}
+

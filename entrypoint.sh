@@ -14,5 +14,5 @@ sh_config='
 '
 
 # echo $sh_config > shadowsocks.json
-
+echo `sed -i 's/EVP_CIPHER_CTX_cleanup/EVP_CIPHER_CTX_reset/g' /usr/local/lib/python3.6/site-packages/shadowsocks/crypto/openssl.py`
 echo `ssserver -c /shadowsocks.json -d start`

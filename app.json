@@ -1,0 +1,22 @@
+{
+  "name": "shadowsocks",
+  "description": "deploy shadowsocks to Heroku.",
+  "keywords": ["shadowsocks"],
+  "env": {
+    "LOCAL_PORT": {
+       "description": "端口",
+       "value": "80"
+    }, 
+    "PASSWORD": {
+       "description": "设置密码",
+       "value": "Fuckqq.c0m"
+    },
+    "METHOD": {
+       "description": "设置加密方式",
+       "value": "aes-256-cfb"
+    }
+  },
+  "website": "https://github.com/1992black/shadowsocks-docker.git",
+  "repository": "https://github.com/1992black/shadowsocks-docker.git",
+  "stack": "container"
+ }
